@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style: none;
+}
+body{
+        height: 833px;
+        width: 100%;
+        background: #dddddb;
+        .register{
+        width: 1000px;
+        height: 833px;
+        background: url(../images/5.jpg) no-repeat;
+        margin: 0 auto;
+        overflow: hidden;
+        
+        .header{
+            width: 369px;
+            height: 36px;
+            margin: 30px auto 0;
+            background: url(../images/logo.png) no-repeat ;
+          
+            }
+        .main{
+            position: relative;
+            width: 1000px;
+            height: 650px;
+            .zhuce{
+                float: right;
+                width: 350px;
+                height: 485px;
+                margin: 60px 200px 0 0;
+            .huming{
+                margin-left: 56px;
+                display: none;
+                color: red;
+            }
+            .mi{
+               margin-left: 50px;
+                display: none;
+                color: red; 
+            }   
+            .rephone{
+              margin-left: 50px;
+                display: none;
+                color: red;   
+            }
+            
+     .yan{
+        margin-top: 20px;
+        width:50px;
+        height: 36px;
+    }
+     .yanzheng .Rand{
+        width: 60px;
+        height: 26px;
+        border: 1px solid red;
+        background: url(../images/con1.jpg);
+        position: absolute;
+        right:258px;
+        bottom: 351px;
+        text-align: center;
+        line-height: 26px;
+        font-size: 20px;
+    }
+    .mess5{
+         position: absolute;
+        right:384px;
+        bottom: 328px;
+        color: red;
+        font-size: 14px;
+        display: none;
+    }
+    
+     .Randx{
+        width: 95;
+        height: 26px;
+        position: absolute;
+        right:240px;
+        bottom: 320px;
+        color: #666;
+        cursor: pointer;
+        margin-left: 100px;
+        font-size: 14px;
+        
+    }
+     .Randx span{
+        color: #005aa0;
+    }
+    
+    
+    
+        
+            
+            
+            }
+            .mfzc{
+                height: 20px;
+                margin-bottom: 10px;
+                 h2{
+                    font-size: 16px;
+                    font-weight: 600;
+                    float: left;
+                    margin-left: 90px;
+                }
+                span{
+                    font-size: 12px;
+                    float: right;
+                }
+                a{
+                    font-size: 14px;
+                    color: red;
+                }
+            }
+            .xinke{
+                width: 260px;
+                padding-left: 90px;
+                height: auto;
+                overflow: hidden;
+                text-align: left;
+                padding-bottom: 10px;
+                color: red;
+                font-size: 12px;
+            }
+            .username{
+                padding-left: 32px;
+                margin-bottom: 10px;
+            }
+            .password{
+                padding-left: 40px;
+                margin-bottom: 10px;
+            }
+            .phone{
+                padding-left: 32px;
+                margin-bottom: 10px;
+            }
+            .yanzheng{
+                padding-left: 34px;
+                margin-bottom: 10px;
+                .yan{
+                    display: block;
+                    margin-top: 6px;
+                    float: left;
+                } 
+                .yzm-input{
+                    width: 88px;
+                    height: 30px;
+                    float: left;
+                    margin-right: 20px;
+                }
+                img{
+                    display: block;
+                    width: 135px;
+                    height: 30px;
+                    border: 1px solid #999;
+                    float: left;
+                }
+            }
+            .dian{
+               margin-left: 84px;
+               
+                .liji{
+                        margin-top: 88px;
+                        border: 0px;
+                        display: block;
+                        background: #db2725;
+                        width: 260px;
+                        height: 35px;
+                        color: #FFFFFF;
+                      }
+            }
+            .tyzc{
+                font: 12px/18px "";
+                p{
+                    display: block;
+                    margin:10px 0 0 80px;
+                }
+                span{
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    background: url(../images/icon_selected.png) no-repeat;
+                    cursor: pointer;
+                    margin: 10px 5px 0 5px;
+                }
+            }
+            .xian{
+                width: 350px;
+                height: 1px;
+                background: #a8aaab;
+                margin-top: 19px;
+            }
+            .erweima{
+                margin: 20px 0 0 90px;
+                img{
+                    display: block;
+                    float: left;
+                    vertical-align: middle;
+                }
+                p{
+                    margin-top: 20px;
+                    margin-left: 15px;
+                    line-height: 20px;
+                    width: 146px;
+                    font-size: 12px;
+                    float: left;
+                }
+            }
+            
+            .form span{
+                    font-size: 12px;
+                }
+             .kong{
+                width: 244px;
+                height: 30px;
+                padding: 0 8px;
+                }
+        }   
+        }
+        .footer{
+               // height: 205px;
+               
+                width: 1000px;
+                margin: 0 auto;
+                //padding: 30px 0 0 0;
+                text-align: center;
+                .xiaotu{
+                    
+                    ul{
+                        font-size: 12px;
+                        width: 1000px;
+                        height: 60px;
+                        margin-bottom: 20px;
+                        li{
+                            width: 165px;
+                            height: 60px;
+                            line-height: 95px;
+                            text-align: center;
+                            list-style: none;
+                            float: left; 
+                            }
+                    }
+                }
+                .a1{
+                    background-image: url(../images/base_z.png);
+                    background-repeat: no-repeat;
+                    background-position: -153px -146px;
+                }
+                .a2{
+                    background-image: url(../images/base_z.png);
+                    background-repeat: no-repeat;
+                    background-position: -543px -104px;
+                }
+                .a3{
+                    background-image: url(../images/base_z.png);
+                    background-repeat: no-repeat;
+                    background-position: -150px -382px;
+                }
+                .a4{
+                    background-image: url(../images/base_z.png);
+                    background-repeat: no-repeat;
+                    background-position: -419px 5px;
+                }
+                .a5{
+                    background-image: url(../images/base_z.png);
+                    background-repeat: no-repeat;
+                    background-position: -301px -346px;
+                }
+                .a6{
+                    background-image: url(../images/base_z.png);
+                    background-repeat: no-repeat;
+                    background-position: -301px -112px;
+                }
+                
+                     .copyright{
+                         width: 1000px;
+                         height: 60px;
+                          margin: 0 auto;
+                          font-size: 12px;  
+                          margin-bottom: 20px;
+                        }
+            } 
+
+}
+
+

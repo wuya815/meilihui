@@ -1,0 +1,221 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+ul li {
+  list-style: none; }
+
+body {
+  height: 833px;
+  width: 100%;
+  background: #dddddb; }
+  body .register {
+    width: 1000px;
+    height: 833px;
+    background: url(../images/5.jpg) no-repeat;
+    margin: 0 auto;
+    overflow: hidden; }
+    body .register .header {
+      width: 369px;
+      height: 36px;
+      margin: 30px auto 0;
+      background: url(../images/logo.png) no-repeat; }
+    body .register .main {
+      position: relative;
+      width: 1000px;
+      height: 650px; }
+      body .register .main .zhuce {
+        float: right;
+        width: 350px;
+        height: 485px;
+        margin: 60px 200px 0 0; }
+        body .register .main .zhuce .huming {
+          margin-left: 56px;
+          display: none;
+          color: red; }
+        body .register .main .zhuce .mi {
+          margin-left: 50px;
+          display: none;
+          color: red; }
+        body .register .main .zhuce .rephone {
+          margin-left: 50px;
+          display: none;
+          color: red; }
+        body .register .main .zhuce .yan {
+          margin-top: 20px;
+          width: 50px;
+          height: 36px; }
+        body .register .main .zhuce .yanzheng .Rand {
+          width: 60px;
+          height: 26px;
+          border: 1px solid red;
+          background: url(../images/con1.jpg);
+          position: absolute;
+          right: 258px;
+          bottom: 351px;
+          text-align: center;
+          line-height: 26px;
+          font-size: 20px; }
+        body .register .main .zhuce .mess5 {
+          position: absolute;
+          right: 384px;
+          bottom: 328px;
+          color: red;
+          font-size: 14px;
+          display: none; }
+        body .register .main .zhuce .Randx {
+          width: 95;
+          height: 26px;
+          position: absolute;
+          right: 240px;
+          bottom: 320px;
+          color: #666;
+          cursor: pointer;
+          margin-left: 100px;
+          font-size: 14px; }
+        body .register .main .zhuce .Randx span {
+          color: #005aa0; }
+      body .register .main .mfzc {
+        height: 20px;
+        margin-bottom: 10px; }
+        body .register .main .mfzc h2 {
+          font-size: 16px;
+          font-weight: 600;
+          float: left;
+          margin-left: 90px; }
+        body .register .main .mfzc span {
+          font-size: 12px;
+          float: right; }
+        body .register .main .mfzc a {
+          font-size: 14px;
+          color: red; }
+      body .register .main .xinke {
+        width: 260px;
+        padding-left: 90px;
+        height: auto;
+        overflow: hidden;
+        text-align: left;
+        padding-bottom: 10px;
+        color: red;
+        font-size: 12px; }
+      body .register .main .username {
+        padding-left: 32px;
+        margin-bottom: 10px; }
+      body .register .main .password {
+        padding-left: 40px;
+        margin-bottom: 10px; }
+      body .register .main .phone {
+        padding-left: 32px;
+        margin-bottom: 10px; }
+      body .register .main .yanzheng {
+        padding-left: 34px;
+        margin-bottom: 10px; }
+        body .register .main .yanzheng .yan {
+          display: block;
+          margin-top: 6px;
+          float: left; }
+        body .register .main .yanzheng .yzm-input {
+          width: 88px;
+          height: 30px;
+          float: left;
+          margin-right: 20px; }
+        body .register .main .yanzheng img {
+          display: block;
+          width: 135px;
+          height: 30px;
+          border: 1px solid #999;
+          float: left; }
+      body .register .main .dian {
+        margin-left: 84px; }
+        body .register .main .dian .liji {
+          margin-top: 88px;
+          border: 0px;
+          display: block;
+          background: #db2725;
+          width: 260px;
+          height: 35px;
+          color: #FFFFFF; }
+      body .register .main .tyzc {
+        font: 12px/18px ""; }
+        body .register .main .tyzc p {
+          display: block;
+          margin: 10px 0 0 80px; }
+        body .register .main .tyzc span {
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          background: url(../images/icon_selected.png) no-repeat;
+          cursor: pointer;
+          margin: 10px 5px 0 5px; }
+      body .register .main .xian {
+        width: 350px;
+        height: 1px;
+        background: #a8aaab;
+        margin-top: 19px; }
+      body .register .main .erweima {
+        margin: 20px 0 0 90px; }
+        body .register .main .erweima img {
+          display: block;
+          float: left;
+          vertical-align: middle; }
+        body .register .main .erweima p {
+          margin-top: 20px;
+          margin-left: 15px;
+          line-height: 20px;
+          width: 146px;
+          font-size: 12px;
+          float: left; }
+      body .register .main .form span {
+        font-size: 12px; }
+      body .register .main .kong {
+        width: 244px;
+        height: 30px;
+        padding: 0 8px; }
+  body .footer {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center; }
+    body .footer .xiaotu ul {
+      font-size: 12px;
+      width: 1000px;
+      height: 60px;
+      margin-bottom: 20px; }
+      body .footer .xiaotu ul li {
+        width: 165px;
+        height: 60px;
+        line-height: 95px;
+        text-align: center;
+        list-style: none;
+        float: left; }
+    body .footer .a1 {
+      background-image: url(../images/base_z.png);
+      background-repeat: no-repeat;
+      background-position: -153px -146px; }
+    body .footer .a2 {
+      background-image: url(../images/base_z.png);
+      background-repeat: no-repeat;
+      background-position: -543px -104px; }
+    body .footer .a3 {
+      background-image: url(../images/base_z.png);
+      background-repeat: no-repeat;
+      background-position: -150px -382px; }
+    body .footer .a4 {
+      background-image: url(../images/base_z.png);
+      background-repeat: no-repeat;
+      background-position: -419px 5px; }
+    body .footer .a5 {
+      background-image: url(../images/base_z.png);
+      background-repeat: no-repeat;
+      background-position: -301px -346px; }
+    body .footer .a6 {
+      background-image: url(../images/base_z.png);
+      background-repeat: no-repeat;
+      background-position: -301px -112px; }
+    body .footer .copyright {
+      width: 1000px;
+      height: 60px;
+      margin: 0 auto;
+      font-size: 12px;
+      margin-bottom: 20px; }
+
+/*# sourceMappingURL=register.css.map */

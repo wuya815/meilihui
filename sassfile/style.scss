@@ -1,0 +1,1242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.margin{
+    width: 1880px;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.topbg{
+    width: 100%;
+    height: 30px;
+    background: #f1f1f1; 
+}
+
+.topbg .top{
+    width: 1000px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+    background: red;
+    li{
+       list-style: none;
+        float: left;
+        padding-right: 6px;
+        line-height: 30px; 
+    }
+    .denglu{
+    float: left;
+    }
+    .zixun{
+        line-height: 30px;
+        float: right;
+        li .weibo{
+        display: block;
+        margin-top: 7px;
+        background-image: url(../images/base_z.png);
+        width: 20px;
+        height: 17px;
+        background-position: -604px -329px;
+        background-repeat: no-repeat;
+        }
+    }
+}
+ 
+.header{
+    width: 1000px;
+    height: 90px;
+    margin: 0 auto;
+    .logo{
+            display: block;
+            width: 205px;
+            height: 90px;
+            text-indent: -999px;
+            float: left;
+            background-image: url(../images/base_z.png);
+            background-position: -853px -295px;
+            background-repeat: no-repeat;
+        }
+    .logozi{
+            display: block;
+            width: 151px;
+            height: 90px;
+            text-indent: -9999px;
+            float: left;
+            background-repeat: no-repeat;
+            background-image: url(../images/base_z.png);
+            background-position: -889px -74px;
+            background-repeat: no-repeat;
+        } 
+        .sousuo{
+            float: left;
+            .kuang{
+                float: left;
+                width: 260px;
+                height: 25px;
+                margin: 40px 0 0 200px;
+                padding:0 8px;
+                
+                } 
+            .sou{
+                float: left;
+                margin-top: 40px;
+                height: 29px;
+                width: 46px;
+                border: 0;
+            } 
+        } 
+       
+    }
+
+.danav{
+    height: 42px;
+    background: #000;
+}
+.danav .xiaonav{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    .daohang{
+        height: 42px;
+        color: white;
+        position: relative;
+        li{
+        float: left;
+        height: 42px;
+        margin-right: 50px;
+        list-style: none;
+        line-height: 42px;
+        position: relative;
+        }
+        a{
+            color: white;
+        }
+    }
+    .xiala{
+        width: 630px;
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: 42px;
+        background: white;
+        display: none;
+        .remen{
+            width: 274px;
+            height: auto;
+            overflow: hidden;
+            float: left;
+            padding: 0 20px 0 20px;
+            position: relative;
+            border-right: 1px #e7e7e7 solid;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            .title{
+                    width: 100%;
+                    height: 44px;
+                    line-height: 44px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    border-bottom: 1px solid #e7e7e7;
+                    text-align: left;
+                    color: black;
+            }
+            ul{
+                li{
+                    font-size: 12px;
+                    color: #666;
+                    float: none;
+                    width: 100%;
+                    height: auto;
+                    overflow: hidden;
+                    line-height: 15px;
+                    white-space: normal;
+                    text-align: left;
+                    margin-top: 10px;
+                    margin-right: 0;
+                }
+            }
+        }
+        .fenlei{
+            float: left;
+        }
+        
+    }
+        .shopcart{
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        color: white;
+            li{
+                line-height: 42px;
+                list-style: none;
+                float: left;
+                padding-right: 15px;
+            }
+        .cart{
+           width: 23px;
+            height: 45px;
+            font-size: 12px;
+            background-image: url(../images/base_z.png);
+            background-position: -1017px -219px;
+            background-repeat: no-repeat; 
+        }
+    }
+}
+
+//.banner{
+//  width: 100%;
+//  //width: 1800px;
+//  height: 524px;
+//  //margin: 0 auto;
+//  overflow: hidden;
+//  background: cadetblue;
+//  text-align: center;
+////  img{
+////      width: 1800px;
+////      height: 524px;
+////      //margin: 0 auto;
+////  }
+//}
+
+
+#nav img{
+    display: block;
+    width: 100%;
+    
+    }
+#part {
+    width: 100%;
+    height: 524px;
+    
+}
+#part .partCon {
+//  width: 820px;
+//  height: 419px;
+ width: 1880px;
+       // width: 820px;
+        height: 524px;
+    margin: 0 auto;
+    
+    
+}
+#part .partCon .left {
+    float: left;
+}
+#part .partCon .right {
+    float: right;
+}
+#part .partCon .banner {
+     width: 100%;
+        height: 524px;
+
+
+    position: relative;
+}
+#part .partCon .banner a {
+    width: 71px;
+    height: 71px;
+    //display: none;  
+    
+    position: absolute;
+    top: 180px;
+    z-index: 2;
+}
+#part .partCon .banner a.prev {
+    display: block;
+    left: -35px;
+    background: url(../images/bigimg_prev.png) no-repeat -71px 0px;
+    
+}
+#part .partCon .banner:hover  a.prev{
+    background-position: 0 0;
+    background-color: rgba(0,0,0,.2);
+}
+#part .partCon .banner a.next {
+    right: -35px;
+    background: url(../images/bigimg_next.png) no-repeat -71px -71px;
+    }
+    #part .partCon .banner:hover a.next {
+    background-position: 0 -71px;
+    background:  rgba(0,0,0,.2);;
+}
+#part .partCon .banner .scroll {
+    z-index: -999;
+        width: 1880px;
+       // width: 820px;
+        height: 524px;
+        //height: 419px;
+        background: #abcdef;
+        position: relative;
+        overflow: hidden;
+}
+#part .partCon .banner .scroll img {
+    width: 1880px;
+    height: 524px;
+    position: absolute;
+    left: 1880px;
+    width:100%;
+}
+#part .partCon .banner .scroll img.first {
+    left: 0;
+}
+#part .partCon .banner .btn {
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    left: 640px;
+    bottom: 30px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+#part .partCon .banner .btn span {
+    width: 10px;
+    height: 10px;
+    background: #666;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+#part .partCon .banner .btn span.hover {
+    background: #ff0099;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+.bg-shadow{
+    margin: 0 auto;
+    width: 1040px;
+    //height: 8153px;
+    background: white;
+    //background-image: url(../images/base_x.png);
+    //background-position: 0 -372px;
+    //background-repeat: repeat-x;
+     
+}
+
+
+ #loutinav {
+        width: 110px;
+        background: black;
+        margin: 0 auto;
+        position: fixed;
+        right: 60px;
+        top: 170px;
+        display: none;
+    }
+    #loutinav div{
+        width: 110px;
+        height: 32px;
+        border-bottom: 1px dotted #DDDDDD;
+        list-style: none;
+        font-size: 12px;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        padding: 10px 0;
+        background: #918888;
+        color: #fff;
+    }
+//  #loutinav div.last{
+//      background: #5e4a4a;
+//      color: #fff;
+//      border-bottom: 1px solid #ddd;
+//  }
+    #loutinav .active{
+        background: #c00;
+        color: #FF0000;
+        display: block;
+    }
+    
+    #loutinav div:hover{
+        background: #c00;
+        color: #fff;
+        display: block;
+    }
+    
+        #loutinav .louti {
+            height: 40px;
+            width: 110px;
+            font-size: 12px;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 46px;
+        }
+.bg-shadow .main-bg{
+            width: 1000px;
+            //height: 8011px;
+            margin: 0 auto;
+            background: rgba(0,0,0,.1);
+            //margin-bottom: 20px;
+        .main-xin{//今日上新
+            width: 1020px;
+            height: 1822px;
+            background: white;
+            margin: 0 auto;
+            padding-top: 20px;
+            font-size: 12px;
+            .h3{
+                font-size: 24px;
+                display: block;
+                height: 28px;
+                line-height: 26px;
+                padding: 0 10px;
+                margin-bottom: 10px;
+                .left{
+                    background: url(../images/icon_title.png) no-repeat left top;
+                    width: 6px;
+                    height: 28px;
+                    float: left;
+                    }
+                .right{
+                    background: url(../images/icon_title.png) no-repeat right top;
+                    width: 6px;
+                    height: 28px;
+                    float: left;
+                }
+                .xin{
+                    font-size: 24px;
+                    display: block;
+                    height: 28px;
+                    line-height: 26px;
+                    float: left;
+                    padding: 0 10px;
+                }
+            } 
+            .sige{
+                width: 680px;
+                float: left;
+                height: 504px;
+                li{
+                    background: rgba(0,0,0,.15);
+                    width: 320px;
+                    height: 232px;
+                    margin:0 20px 20px 0;
+                    float: left;
+                    line-height: 26px;
+                    span{
+                        float: left;
+                        padding: 0 8px;
+                    }
+                    p{
+                        color: red;
+                        float: right;
+                        padding-right: 10px;
+                    }
+                    img{
+                       width: 320px;
+                       height: 192px; 
+                    }
+                }
+            }
+            #shiwuge{
+                width: 1020px;
+                
+                    li{
+                        height: 232px;
+                        float: left;
+                        margin-right: 20px;
+                        margin-bottom: 20px;
+                        background: rgba(0,0,0,.15);
+                        line-height: 26px;
+                        span{
+                        float: left;
+                        padding: 0 8px;
+                        }
+                        p{
+                            color: red;
+                            float: right;
+                            padding-right: 10px;
+                        }
+                        img{
+                            width: 320px;
+                            height: 192px; 
+                        }
+                    }
+            }
+           
+            .right-banner{
+                width: 320px;
+                height: 484px;
+                background: red;
+                float: right;
+                position: relative;
+                left: -20px;
+                margin-bottom: 20px;
+            }
+         }
+    
+        .main-hot{
+            width: 1020px;
+            height: 814px;
+            background: white;
+            margin: 0 auto;
+            font-size: 12px;
+          .h3{
+            font-size: 24px;
+            display: block;
+            height: 28px;
+            line-height: 26px;
+            padding: 0 10px;
+            margin-bottom: 10px;
+                .left{
+                background: url(../images/icon_title.png) no-repeat left top;
+                width: 6px;
+                height: 28px;
+                float: left;
+                }
+                .right{
+                    background: url(../images/icon_title.png) no-repeat right top;
+                    width: 6px;
+                    height: 28px;
+                    float: left;
+                }
+                .hot{
+                    font-size: 24px;
+                    display: block;
+                    height: 28px;
+                    line-height: 26px;
+                    float: left;
+                    padding: 0 10px;
+                }
+                
+            } 
+            .remai{
+                height: 783;
+                width: 1020px;
+                li{
+                    height: 232px;
+                    float: left;
+                    margin-right: 20px;
+                    margin-bottom: 20px;
+                    background: rgba(0,0,0,.15);
+                    line-height: 26px;
+                    span{
+                    float: left;
+                    padding: 0 8px;
+                    }
+                    p{
+                        color: red;
+                        float: right;
+                        padding-right: 10px;
+                    }
+                    img{
+                    width: 320px;
+                    height: 192px;
+                }
+                }
+            }
+    }
+        .main-women{
+                width: 1020px;
+                height: 1083px;
+                background: red;
+                background: white;
+                margin: 0 auto;
+                font-size: 12px;
+                .h3{
+                    font-size: 24px;
+                    display: block;
+                    height: 28px;
+                    line-height: 26px;
+                    padding: 0 10px;
+                    margin-bottom: 10px;
+                    .left{
+                        background: url(../images/icon_title.png) no-repeat left top;
+                        width: 6px;
+                        height: 28px;
+                        float: left;
+                    }
+                    .right{
+                        background: url(../images/icon_title.png) no-repeat right top;
+                        width: 6px;
+                        height: 28px;
+                        float: left;
+                    }
+                    .women{
+                        font-size: 24px;
+                        display: block;
+                        height: 28px;
+                        line-height: 26px;
+                        float: left;
+                        padding: 0 10px;
+                    }
+                }   
+                 .left-banner{
+                    width: 320px;
+                    height: 484px;
+                    background: red;
+                    float: left;
+                    position: relative;
+                    //right: -20px;
+                    margin-bottom: 20px;
+                }  
+                .nssige{
+                    width: 680px;
+                    float: left;
+                    height: 504px;
+                    li{
+                        background: rgba(0,0,0,.15);
+                        width: 320px;
+                        height: 232px;
+                        margin:0 0 20px 20px;
+                        float: left;
+                        line-height: 26px;
+                        span{
+                            float: left;
+                            padding: 0 8px;
+                        }
+                        p{
+                            color: red;
+                            float: right;
+                            padding-right: 10px;
+                        }
+                        img{
+                            width: 320px;
+                             height: 192px;
+                        }
+                    }
+                }  
+                #nsliuge{
+                    width: 1020px;
+                    
+                        li{
+                            height: 232px;
+                            float: left;
+                            margin-right: 20px;
+                            margin-bottom: 20px;
+                            background: rgba(0,0,0,.15);
+                            line-height: 26px;
+                            span{
+                            float: left;
+                            padding: 0 8px;
+                            }
+                            p{
+                                color: red;
+                                float: right;
+                                padding-right: 10px;
+                            }
+                            img{
+                                width: 320px;
+                                height: 192px;
+                            }
+                        }
+                }
+        }
+        .main-men{
+                width: 1020px;
+                height: 831px;
+                background: white;
+                margin: 0 auto;
+                font-size: 12px;
+                .h3{
+                    font-size: 24px;
+                    display: block;
+                    height: 28px;
+                    line-height: 26px;
+                    padding: 0 10px;
+                    margin-bottom: 10px;
+                    .left{
+                        background: url(../images/icon_title.png) no-repeat left top;
+                        width: 6px;
+                        height: 28px;
+                        float: left;
+                    }
+                    .right{
+                        background: url(../images/icon_title.png) no-repeat right top;
+                        width: 6px;
+                        height: 28px;
+                        float: left;
+                    }
+                    .men{
+                        font-size: 24px;
+                        display: block;
+                        height: 28px;
+                        line-height: 26px;
+                        float: left;
+                        padding: 0 10px;
+                    }
+                }   
+                 .left-banner{
+                    width: 320px;
+                    height: 484px;
+                    background: red;
+                    float: left;
+                    position: relative;
+                    //right: -20px;
+                    margin-bottom: 20px;
+                }  
+                #nansige{
+                    width: 680px;
+                    float: left;
+                    height: 504px;
+                    li{
+                        background: rgba(0,0,0,.15);
+                        width: 320px;
+                        height: 232px;
+                        margin:0 0 20px 20px;
+                        float: left;
+                        line-height: 26px;
+                        span{
+                            float: left;
+                            padding: 0 8px;
+                        }
+                        p{
+                            color: red;
+                            float: right;
+                            padding-right: 10px;
+                        }
+                        img{
+                            width: 320px;
+                            height: 192px;
+                        }
+                    }
+                }  
+                #nansange{
+                    width: 1020px;
+                    
+                        li{
+                            height: 232px;
+                            float: left;
+                            margin-right: 20px;
+                            margin-bottom: 20px;
+                            background: rgba(0,0,0,.15);
+                            line-height: 26px;
+                            span{
+                            float: left;
+                            padding: 0 8px;
+                            }
+                            p{
+                                color: red;
+                                float: right;
+                                padding-right: 10px;
+                            }
+                             img{
+                            width: 320px;
+                            height: 192px;
+                            }
+                        }
+                }
+    }
+        .main-beauty{
+                width: 1020px;
+                height: 831px;
+                background: white;
+                margin: 0 auto;
+                font-size: 12px;
+                .h3{
+                    font-size: 24px;
+                    display: block;
+                    height: 28px;
+                    line-height: 26px;
+                    padding: 0 10px;
+                    margin-bottom: 10px;
+                    .left{
+                        background: url(../images/icon_title.png) no-repeat left top;
+                        width: 6px;
+                        height: 28px;
+                        float: left;
+                    }
+                    .right{
+                        background: url(../images/icon_title.png) no-repeat right top;
+                        width: 6px;
+                        height: 28px;
+                        float: left;
+                    }
+                    .beauty{
+                        font-size: 24px;
+                        display: block;
+                        height: 28px;
+                        line-height: 26px;
+                        float: left;
+                        padding: 0 10px;
+                    }
+                }   
+                 .left-banner{
+                    width: 320px;
+                    height: 484px;
+                    background: red;
+                    float: left;
+                    position: relative;
+                    //right: -20px;
+                    margin-bottom: 20px;
+                }  
+                #mzsige{
+                    width: 680px;
+                    float: left;
+                    height: 504px;
+                    li{
+                        background: rgba(0,0,0,.15);
+                        width: 320px;
+                        height: 232px;
+                        margin:0 0 20px 20px;
+                        float: left;
+                        line-height: 26px;
+                        span{
+                            float: left;
+                            padding: 0 8px;
+                        }
+                        p{
+                            color: red;
+                            float: right;
+                            padding-right: 10px;
+                        }
+                         img{
+                            width: 320px;
+                            height: 192px;
+                        }
+                    }
+                }  
+                #mzsange{
+                    width: 1020px;
+                    
+                        li{
+                            height: 232px;
+                            float: left;
+                            margin-right: 20px;
+                            margin-bottom: 20px;
+                            background: rgba(0,0,0,.15);
+                            line-height: 26px;
+                            span{
+                            float: left;
+                            padding: 0 8px;
+                            }
+                            p{
+                                color: red;
+                                float: right;
+                                padding-right: 10px;
+                            }
+                            img{
+                            width: 320px;
+                            height: 192px;
+                            }
+                        }
+                }
+    }
+        .main-lifestyle{
+                width: 1020px;
+                height: 579px;
+                background: white;
+                margin: 0 auto;
+                padding-top: 20px;
+                font-size: 12px;
+                .h3{
+                    font-size: 24px;
+                    display: block;
+                    height: 28px;
+                    line-height: 26px;
+                    padding: 0 10px;
+                    margin-bottom: 10px;
+                    .left{
+                        background: url(../images/icon_title.png) no-repeat left top;
+                        width: 6px;
+                        height: 28px;
+                        float: left;
+                    }
+                    .right{
+                        background: url(../images/icon_title.png) no-repeat right top;
+                        width: 6px;
+                        height: 28px;
+                        float: left;
+                    }
+                    .lifestyle{
+                        font-size: 24px;
+                        display: block;
+                        height: 28px;
+                        line-height: 26px;
+                        float: left;
+                        padding: 0 10px;
+                    }
+                }   
+                 .left-banner{
+                    width: 320px;
+                    height: 484px;
+                    background: red;
+                    float: left;
+                    position: relative;
+                    //right: -20px;
+                    margin-bottom: 20px;
+                }  
+                #lifesige{
+                    width: 680px;
+                    float: left;
+                    height: 504px;
+                    li{
+                        background: rgba(0,0,0,.15);
+                        width: 320px;
+                        height: 232px;
+                        margin:0 0 20px 20px;
+                        float: left;
+                        line-height: 26px;
+                        span{
+                            float: left;
+                            padding: 0 8px;
+                        }
+                        p{
+                            color: red;
+                            float: right;
+                            padding-right: 10px;
+                        }
+                         img{
+                                width: 320px;
+                                height: 192px;
+                            }
+                    }
+                }  
+    }
+        .main-kids{
+                width: 1020px;
+                height: 579px;
+                background: white;
+                margin: 0 auto;
+                padding-top: 20px;
+                font-size: 12px;
+                .h3{
+                    font-size: 24px;
+                    display: block;
+                    height: 28px;
+                    line-height: 26px;
+                    padding: 0 10px;
+                    margin-bottom: 10px;
+                    .left{
+                        background: url(../images/icon_title.png) no-repeat left top;
+                        width: 6px;
+                        height: 28px;
+                        float: left;
+                    }
+                    .right{
+                        background: url(../images/icon_title.png) no-repeat right top;
+                        width: 6px;
+                        height: 28px;
+                        float: left;
+                    }
+                    .seas{
+                        font-size: 24px;
+                        display: block;
+                        height: 28px;
+                        line-height: 26px;
+                        float: left;
+                        padding: 0 10px;
+                    }
+                }
+                   
+                 .left-banner{
+                    width: 320px;
+                    height: 484px;
+                    background: red;
+                    float: left;
+                    position: relative;
+                    //right: -20px;
+                    margin-bottom: 20px;
+                }  
+                #kidsige{
+                    width: 680px;
+                    float: left;
+                    height: 504px;
+                    li{
+                        background: rgba(0,0,0,.15);
+                        width: 320px;
+                        height: 232px;
+                        margin:0 0 20px 20px;
+                        float: left;
+                        line-height: 26px;
+                        span{
+                            float: left;
+                            padding: 0 8px;
+                        }
+                        p{
+                            color: red;
+                            float: right;
+                            padding-right: 10px;
+                        }
+                        img{
+                            width: 320px;
+                            height: 192px;
+                            }
+                    }
+                }  
+    }
+        .main-overseas{
+                width: 1020px;
+                height: 579px;
+                background: white;
+                margin: 0 auto;
+                padding-top: 20px;
+                font-size: 12px;
+                .h3{
+                    display: block;
+                    height: 28px;
+                    line-height: 26px;
+                    padding: 0 10px;
+                    margin-bottom: 10px;
+                     .left{
+                        background: url(../images/icon_title.png) no-repeat left top;
+                        width: 6px;
+                        height: 28px;
+                        float: left;
+                    }
+                    .right{
+                        background: url(../images/icon_title.png) no-repeat right top;
+                        width: 6px;
+                        height: 28px;
+                        float: left;
+                    }
+                    .seas{
+                        font-size: 24px;
+                        display: block;
+                        height: 28px;
+                        line-height: 26px;
+                        float: left;
+                        padding: 0 10px;
+                    }
+                }   
+                 .left-banner{
+                    width: 320px;
+                    height: 484px;
+                    background: red;
+                    float: left;
+                    position: relative;
+                    //right: -20px;
+                    margin-bottom: 20px;
+                }  
+                #seasige{
+                    width: 680px;
+                    float: left;
+                    height: 504px;
+                    li{
+                        background: rgba(0,0,0,.15);
+                        width: 320px;
+                        height: 232px;
+                        margin:0 0 20px 20px;
+                        float: left;
+                        line-height: 26px;
+                        span{
+                            float: left;
+                            padding: 0 8px;
+                        }
+                        p{
+                            color: red;
+                            float: right;
+                            padding-right: 10px;
+                        }
+                        img{
+                            width: 320px;
+                            height: 192px;
+                            }
+                    }
+                }  
+    }
+        .main-start{
+            width: 1020px;
+            height: 443px;
+            background: white;
+            .left{
+                background: url(../images/icon_title.png) no-repeat left top;
+                width: 6px;
+                height: 28px;
+                float: left;
+            }
+            .right{
+                background: url(../images/icon_title.png) no-repeat right top;
+                width: 6px;
+                height: 28px;
+                float: left;
+            }
+            .kaishi{
+                font-size: 24px;
+                display: block;
+                height: 28px;
+                line-height: 26px;
+                float: left;
+                padding: 0 10px;
+            }
+        }
+}
+
+
+
+.ftbg{
+    height: 235px;
+    background: #f2f2f2;
+    .footer{
+    height: 205px;
+    width: 1000px;
+    margin: 0 auto;
+   padding: 30px 0 0 0;
+   text-align: center;
+
+        ul{
+    font-size: 12px;
+    width: 1000px;
+            li{
+                width: 165px;
+                height: 60px;
+                line-height: 95px;
+                text-align: center;
+                list-style: none;
+                float: left; 
+            }
+        }
+    }
+}
+ 
+.ftbg .footer .xiaotu{
+    li{
+        margin-bottom: 20px;
+    }
+    .a1{
+        background-image: url(../images/base_z.png);
+        background-repeat: no-repeat;
+        background-position: -153px -146px;
+    }
+    .a2{
+        background-image: url(../images/base_z.png);
+        background-repeat: no-repeat;
+        background-position: -543px -104px;
+    }
+    .a3{
+        background-image: url(../images/base_z.png);
+        background-repeat: no-repeat;
+        background-position: -150px -382px;
+    }
+    .a4{
+        background-image: url(../images/base_z.png);
+        background-repeat: no-repeat;
+        background-position: -419px 5px;
+    }
+    .a5{
+        background-image: url(../images/base_z.png);
+        background-repeat: no-repeat;
+        background-position: -301px -346px;
+    }
+    .a6{
+        background-image: url(../images/base_z.png);
+        background-repeat: no-repeat;
+        background-position: -301px -112px;
+    }
+    .map{
+      width: 1000px;
+      font-size: 12px; 
+      margin-bottom: 20px; 
+          a{
+              margin: 0 16px;
+          }
+    }
+    .copyright{
+      font-size: 12px;  
+      margin-bottom: 20px; 
+    }
+}
+
+.main-start{
+    font-size: 14px;
+    .h3{
+        width: 600px;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+    .tabdiv{
+        position: relative;
+        .yi{
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .er{
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+    .tab{
+        width: 600px;
+        height: 16px;
+        text-align: left;
+        border-left: 1px solid black;
+        margin-bottom: 15px; 
+        margin-bottom: 5px;
+        button{
+            display: block;
+            width: 89px;
+            height: 16px;
+            line-height: 16px;
+            float: left;
+            text-align: center;
+            border: none;
+            border-right: 1px solid black;
+            cursor: pointer;
+            background: white;
+            outline: none;
+             
+        }
+        .active{
+            border-bottom: 4px solid black;
+        }  
+    }
+ 
+        .tabdiv{
+            .tabtext1{
+                width: 318px;
+                height: 88px;
+                overflow: hidden;
+                float: left;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                border: 1px solid #e7e7e7;
+                position: relative;
+                background-color: #f2f2f2;
+                img{
+                    float: left;
+                }
+
+            .tabtitle{
+                font-size: 12px;
+                width: 159px;
+                height: 88px;
+                overflow: hidden;
+                float: right;
+                position: relative;
+                float: left;
+                margin: 10px 0 0 5px;
+                .zhe{
+                    margin:10px 10px;
+                    color: red;
+                }
+                i{
+                    margin-right: 10px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+
+

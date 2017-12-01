@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+        height: 833px;
+        width: 100%;
+        background: #dddddb;
+        .register{
+        width: 1000px;
+        height: 833px;
+        background: url(../images/5.jpg) no-repeat;
+        margin: 0 auto;
+        overflow: hidden;
+        
+        .header{
+            width: 369px;
+            height: 36px;
+            margin: 30px auto 0;
+            background: url(../images/logo.png) no-repeat ;
+          
+            }
+        .main{
+            width: 1000px;
+            height: 650px;
+            .zhuce{
+                float: right;
+                width: 350px;
+                height: 485px;
+                margin: 60px 200px 0 0;
+               
+            }
+            .mfzc{
+                height: 20px;
+                margin-bottom: 10px;
+                 h2{
+                    font-size: 16px;
+                    font-weight: 600;
+                    float: left;
+                    margin-left: 90px;
+                }
+                span{
+                    font-size: 12px;
+                    float: right;
+                }
+                a{
+                    font-size: 14px;
+                    color: red;
+                }
+            }
+
+            .username{
+                padding-left: 32px;
+                margin-bottom: 10px;
+            }
+            .password{
+                padding-left: 40px;
+                margin-bottom: 10px;
+            }
+
+            .dian{
+               margin-left: 84px;
+               
+                .huiyuan{
+                        margin-top: 20px;
+                        border: 0px;
+                        display: block;
+                        background: #db2725;
+                        width: 260px;
+                        height: 35px;
+                        color: #FFFFFF;
+                      }
+            }
+            .tyzc{
+                font: 12px/18px "";
+                .zddl{
+                    display: block;
+                    margin:10px 0 0 80px;
+                }
+                .lmdl{
+                    margin:15px 0 0 20px;
+                    img{
+                        margin:0 10px;
+                        vertical-align: middle;
+                    }
+                }
+                a{
+                    margin-left: 120px;
+                    color: black;
+                }
+                span{
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    background: url(../images/icon_selected.png) no-repeat;
+                    cursor: pointer;
+                    margin: 10px 5px 0 5px;
+                }
+            }
+            .xian{
+                width: 350px;
+                height: 1px;
+                background: #a8aaab;
+                margin-top: 19px;
+            }
+            .erweima{
+                margin: 20px 0 0 90px;
+                img{
+                    display: block;
+                    float: left;
+                    vertical-align: middle;
+                }
+                p{
+                    margin-top: 20px;
+                    margin-left: 15px;
+                    line-height: 20px;
+                    width: 146px;
+                    font-size: 12px;
+                    float: left;
+                }
+            }
+            
+            .form span{
+                    font-size: 12px;
+                }
+             .kong{
+                width: 244px;
+                height: 24px;
+                padding: 0 8px;
+                }
+        }   
+        }
+        .footer{
+               // height: 205px;
+               
+                width: 1000px;
+                margin: 0 auto;
+                //padding: 30px 0 0 0;
+                text-align: center;
+                .xiaotu{
+                    
+                    ul{
+                        font-size: 12px;
+                        width: 1000px;
+                        height: 60px;
+                        margin-bottom: 20px;
+                        li{
+                            width: 165px;
+                            height: 60px;
+                            line-height: 95px;
+                            text-align: center;
+                            list-style: none;
+                            float: left; 
+                            }
+                    }
+                }
+                .a1{
+                    background-image: url(../images/base_z.png);
+                    background-repeat: no-repeat;
+                    background-position: -153px -146px;
+                }
+                .a2{
+                    background-image: url(../images/base_z.png);
+                    background-repeat: no-repeat;
+                    background-position: -543px -104px;
+                }
+                .a3{
+                    background-image: url(../images/base_z.png);
+                    background-repeat: no-repeat;
+                    background-position: -150px -382px;
+                }
+                .a4{
+                    background-image: url(../images/base_z.png);
+                    background-repeat: no-repeat;
+                    background-position: -419px 5px;
+                }
+                .a5{
+                    background-image: url(../images/base_z.png);
+                    background-repeat: no-repeat;
+                    background-position: -301px -346px;
+                }
+                .a6{
+                    background-image: url(../images/base_z.png);
+                    background-repeat: no-repeat;
+                    background-position: -301px -112px;
+                }
+                
+                     .copyright{
+                         width: 1000px;
+                         height: 60px;
+                          margin: 0 auto;
+                          font-size: 12px;  
+                          margin-bottom: 20px;
+                        }
+            } 
+
+}
+
+

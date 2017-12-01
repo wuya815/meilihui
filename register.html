@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<title>魅力惠</title>
+		<link rel="stylesheet" href="css/register.css" />
+	</head>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<body>
+		<div class="register">
+			<div class="header"></div>
+			<div class="main">
+				<div class="zhuce">
+					<div class="mfzc">
+						<h2>免费注册</h2>
+						<span>已注册？<a href="login.html">登录</a></span>
+					</div>
+					<div class="xinke">
+						<p>新客专享 1000元现金券礼包</p>
+					</div>
+					<form action="php/register.php" class="form" method="post">
+						<ul>
+							<li class="username">
+								<span>用户名：</span>
+								<input type="text" placeholder="手机号/邮箱" value="" name="username" class="user-input kong"/>
+								<span class="huming">信息填写有误</span>
+							</li>
+							<li class="password">
+								<span>密 码：</span>
+								<input type="password" placeholder="请输入6-20个字符" value="" name="password" class="word-input kong"/>
+								<span class="mi">密码要6-20位字符且不能为空</span>
+							</li>
+							<li class="phone">
+								<span>手机号：</span>
+								<input type="text" placeholder="" value="" name="phone" class="phone-input kong"/>
+								<span class="rephone">请输入正确手机号</span>
+							</li>
+							<li class="yanzheng">
+								<span class="ret4 1 yan">验证码： </span>
+								<input type="text" placeholder="" value="" class="yzm-input kong re4"/>
+								<!--<div class="Rand l yzm-input kong"></div>-->
+								<div class="Rand">abcd</div>
+								<div class="Randx">看不清？<span>换一张</span></div>
+								<div class="mess5"> 验证码错误 </div>
+								<!--<img src="images/img_03.png" />-->
+								
+								
+							</li>
+
+						</ul>
+						<div class="dian">
+						<input type="submit" value="立即注册" name="submit" class="liji" id="submit"/>
+						</div>
+					</form>
+					
+					<div class="tyzc">
+						<p>点击立即注册即表示同意魅力惠使用条款</p>
+						<p><span></span>您将收到魅力惠每日最新上线邮件</p>
+					</div>
+					<div class="xian"></div>
+					<div class="erweima">
+						<img src="images/imges_saomiao.jpg" />
+						<p>
+							扫描二维码或发送短信“MLH”到“12114”
+							下载APP尊享独家优惠
+						</p>
+					</div>
+					<div class=""></div>
+					<div class=""></div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="xiaotu">
+					<ul>
+						<li class="a1">100%正品保证</li>
+						<li class="a2">满688免运费</li>
+						<li class="a3">7天无条件退货</li>
+						<li class="a4">超值折扣</li>
+						<li class="a5">9点限时闪购</li>
+						<li class="a6">400-644-6698</li>
+					</ul>
+					<div class="copyright">
+						<span>COPYRIGHT©2016  杭州魅俪信息技术有限公司版权所有</span>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浙ICP备16004860号-1
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

@@ -1,0 +1,461 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.topbg{
+    width: 100%;
+    height: 30px;
+    background: #f1f1f1; 
+}
+
+.topbg .top{
+    width: 1000px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+    background: red;
+    li{
+       list-style: none;
+        float: left;
+        padding-right: 6px;
+        line-height: 30px; 
+    }
+    .denglu{
+    float: left;
+    }
+    .zixun{
+        line-height: 30px;
+        float: right;
+        li .weibo{
+        display: block;
+        margin-top: 7px;
+        background-image: url(../images/base_z.png);
+        width: 20px;
+        height: 17px;
+        background-position: -604px -329px;
+        background-repeat: no-repeat;
+        }
+    }
+}
+ 
+.header{
+    width: 1000px;
+    height: 90px;
+    margin: 0 auto;
+    .logo{
+            display: block;
+            width: 205px;
+            height: 90px;
+            text-indent: -999px;
+            float: left;
+            background-image: url(../images/base_z.png);
+            background-position: -853px -295px;
+            background-repeat: no-repeat;
+        }
+    .logozi{
+            display: block;
+            width: 151px;
+            height: 90px;
+            text-indent: -9999px;
+            float: left;
+            background-repeat: no-repeat;
+            background-image: url(../images/base_z.png);
+            background-position: -889px -74px;
+            background-repeat: no-repeat;
+        } 
+        .sousuo{
+            float: left;
+            .kuang{
+                float: left;
+                width: 260px;
+                height: 25px;
+                margin: 40px 0 0 200px;
+                padding:0 8px;
+                
+                } 
+            .sou{
+                float: left;
+                margin-top: 40px;
+                height: 29px;
+                width: 46px;
+                border: 0;
+            } 
+        } 
+       
+    }
+
+.danav{
+    height: 42px;
+    background: #000;
+}
+.danav .xiaonav{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    .daohang{
+        height: 42px;
+        color: white;
+        position: relative;
+        li{
+        float: left;
+        height: 42px;
+        margin-right: 50px;
+        list-style: none;
+        line-height: 42px;
+        }
+    }
+        .shopcart{
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        color: white;
+            li{
+                line-height: 42px;
+                list-style: none;
+                float: left;
+                padding-right: 15px;
+            }
+        .cart{
+           width: 23px;
+            height: 45px;
+            font-size: 12px;
+            background-image: url(../images/base_z.png);
+            background-position: -1017px -219px;
+            background-repeat: no-repeat; 
+        }
+    }
+}
+
+.map-link{
+    height: 52px;
+    width: 1000px;
+}
+.xqy{
+    margin: 0 auto;
+    width: 1040px;
+    background: white;
+    #left{
+        overflow: hidden;
+        float: left;
+        .left-shang{
+            position: relative;
+            width: 480px;
+            height: 640px;
+            margin-bottom: 10px;
+            border: 1px solid #918888;
+            position: relative;
+            float: left;
+            .zoom{
+                width: 200px;
+                height: 200px;
+                background: rgba(0,0,255,.2);
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            .zoompic{
+                width: 480px;
+                height: 640px;
+            }
+            .zuo-page{
+                display: block;
+                width: 23px;
+                height: 42px;
+                background: url(../images/bigimg_prev.png);
+                position: absolute;
+                left: 10px;
+                top: 300px;
+            }
+            .you-page{
+                display: block;
+                width: 23px;
+                height: 42px;
+                background: url(../images/bigimg_next.png);
+                position: absolute;
+                right: 10px;
+                top: 300px;
+            }
+        }
+        .bigscale{
+            width: 500px;
+            height: 500px;
+            border: 1px solid grey;
+//          float: left;
+            overflow: hidden;
+            position: absolute;
+            left: 676px;
+            top: 214px;
+            display: none;
+            .bigpic{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 480px;
+                height: 640px;
+            }
+        }
+
+        .left-xia{
+            position: relative;
+            width: 480px;
+            height: 107px;
+            
+            .xiao-lunbo{
+                width: 425px;
+                margin: 0 auto;
+               ul{
+                width: 425px;
+                
+                li{
+                    width: 79px;
+                    height: 107px;
+                    float: left;
+                    margin-right: 5px;
+                   img{
+                      width: 79px;
+                    height: 107px; 
+                   }
+                    
+                }
+            }
+            }
+        }
+        .left-page{
+            display: block;
+            width: 14px;
+            height: 107px;
+         
+            background: url(../images/thumbnail_prev.png) no-repeat 0 center;
+            position: absolute;
+            left: 0;
+            top: 650px
+        }
+        .right-page{
+            display: block;
+            width: 14px;
+            height: 107px;
+            
+            background: url(../images/thumbnail_next.png) no-repeat 0 center;
+            position: absolute;
+            right: 0;
+            top: 650px;
+        }
+    }
+    #right{
+        float: left;
+
+        .title_en{
+            font-size: 35px;
+            margin-left: 50px;
+        }
+        .title_cn{
+            font-size: 18px;
+            margin-left: 50px;
+            color: #666666;
+        }
+        .price{
+            font-size: 28px;
+            font-weight: 700;
+            color: red;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+        .manjian{
+            vertical-align: middle;
+            width: 200px;
+            padding: 8px;
+           margin-left: 50px; 
+           background: gainsboro;
+        }
+        .chima{
+            margin-top: 30px;
+            font-size: 18px;
+            line-height: 30px;
+            margin-left: 50px;
+            margin-bottom: 186px;
+        }
+        .jiagou{
+            border: none;
+            float: left;
+            margin-left: 50px;
+            width: 140px;
+            padding: 10px;
+            color: white;
+            background: black url(../images/icon_buy.png) no-repeat 12px 8px;
+            span{
+                display: block;
+                margin-left: 42px;
+            }
+        }
+        .shli{
+            margin-bottom: 20px;
+            margin-left: 50px;
+            button{
+                font-size: 20px;
+                width: 60px;
+                height: 20px;
+                border: none;
+            }
+            .shu{
+                padding: 0 30px;
+            }
+        }
+        .likemai{
+            border: none;
+            float: left;
+            margin-left: 50px;
+            width: 140px;
+            padding: 10px;
+            color: white;
+            background: red url(../images/icon_buy.png) no-repeat 12px 8px;
+            span{
+                display: block;
+                margin-left: 42px;
+            }
+        }
+    }
+
+}
+
+.ftbg{
+    width: 100%;
+    height: 235px;
+    background: #f2f2f2;
+    position: absolute;
+    top: 1000px;
+    .footer{
+    height: 205px;
+    width: 1000px;
+    margin: 0 auto;
+   padding: 30px 0 0 0;
+   text-align: center;
+
+        ul{
+    font-size: 12px;
+    width: 1000px;
+            li{
+                width: 165px;
+                height: 60px;
+                line-height: 95px;
+                text-align: center;
+                list-style: none;
+                float: left; 
+            }
+        }
+    }
+}
+ 
+.ftbg .footer .xiaotu{
+    li{
+        margin-bottom: 20px;
+    }
+    .a1{
+        background-image: url(../images/base_z.png);
+        background-repeat: no-repeat;
+        background-position: -153px -146px;
+    }
+    .a2{
+        background-image: url(../images/base_z.png);
+        background-repeat: no-repeat;
+        background-position: -543px -104px;
+    }
+    .a3{
+        background-image: url(../images/base_z.png);
+        background-repeat: no-repeat;
+        background-position: -150px -382px;
+    }
+    .a4{
+        background-image: url(../images/base_z.png);
+        background-repeat: no-repeat;
+        background-position: -419px 5px;
+    }
+    .a5{
+        background-image: url(../images/base_z.png);
+        background-repeat: no-repeat;
+        background-position: -301px -346px;
+    }
+    .a6{
+        background-image: url(../images/base_z.png);
+        background-repeat: no-repeat;
+        background-position: -301px -112px;
+    }
+    .map{
+      width: 1000px;
+      font-size: 12px; 
+      margin-bottom: 20px; 
+          a{
+              margin: 0 16px;
+          }
+    }
+    .copyright{
+      font-size: 12px;  
+      margin-bottom: 20px; 
+    }
+}
+
+.main-start{
+    font-size: 14px;
+    .h3{
+        width: 600px;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+    .tab{
+        width: 600px;
+        height: 30px;
+        text-align: left;
+        span{
+            display: block;
+            width: 45px;
+            height: 16px;
+            line-height: 16px;
+            float: left;
+            text-align: center;
+        }
+    }
+    .tabtext1{
+        width: 318px;
+        height: 88px;
+        overflow: hidden;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #e7e7e7;
+        position: relative;
+        background-color: #f2f2f2;
+        img{
+            float: left;
+        }
+        .tabtitle{
+            font-size: 12px;
+            width: 159px;
+            height: 88px;
+            overflow: hidden;
+            float: right;
+            position: relative;
+            float: left;
+            margin: 10px 0 0 5px;
+            .zhe{
+                margin:10px 10px;
+                color: red;
+            }
+            i{
+                margin-right: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+
+
